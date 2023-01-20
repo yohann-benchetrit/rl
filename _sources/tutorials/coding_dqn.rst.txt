@@ -255,7 +255,7 @@ Compute normalizing constants:
  .. code-block:: none
 
 
-    (0.9920334815979004, 0.07730115205049515)
+    (0.9927790760993958, 0.0761055275797844)
 
 
 
@@ -719,20 +719,20 @@ Training loop
 
  .. code-block:: none
 
-      0%|          | 0/500 [00:00<?, ?it/s]      6%|6         | 32/500 [00:02<00:43, 10.73it/s]Creating a MemmapStorage...
+      0%|          | 0/500 [00:00<?, ?it/s]      6%|6         | 32/500 [00:06<01:35,  4.89it/s]Creating a MemmapStorage...
     The storage is being created: 
-            action: /tmp/tmpmjnu4ok6, 0.00762939453125 Mb of storage (size: torch.Size([500, 2])).
-            action_value: /tmp/tmpgmsjx7zg, 0.003814697265625 Mb of storage (size: torch.Size([500, 2])).
-            chosen_action_value: /tmp/tmptrq8ox94, 0.0019073486328125 Mb of storage (size: torch.Size([500, 1])).
-            done: /tmp/tmph9p6_rsq, 0.000476837158203125 Mb of storage (size: torch.Size([500, 1])).
-            index: /tmp/tmpqtoaxgm9, 0.0019073486328125 Mb of storage (size: torch.Size([500])).
-            mask: /tmp/tmp6bybauri, 0.000476837158203125 Mb of storage (size: torch.Size([500])).
-            pixels: /tmp/tmpscfj9byw, 31.25 Mb of storage (size: torch.Size([500, 4, 64, 64])).
-            reward: /tmp/tmpofw4e0_y, 0.0019073486328125 Mb of storage (size: torch.Size([500, 1])).
-            step_count: /tmp/tmpoki8oqm4, 0.003814697265625 Mb of storage (size: torch.Size([500])).
-            traj_ids: /tmp/tmp5emtpnt6, 0.003814697265625 Mb of storage (size: torch.Size([500])).
-            ('next', 'pixels'): /tmp/tmpa6pz9i1s, 31.25 Mb of storage (size: torch.Size([500, 4, 64, 64])).
-     13%|#2        | 64/500 [00:03<00:19, 22.46it/s]     19%|#9        | 96/500 [00:06<00:25, 15.68it/s]    error:  13.1215, value:  19.0328:  19%|#9        | 96/500 [00:06<00:25, 15.68it/s]    error:  13.1215, value:  19.0328:  26%|##5       | 128/500 [00:07<00:18, 19.91it/s]    error:  51.3781, value:  18.6501:  26%|##5       | 128/500 [00:07<00:18, 19.91it/s]    error:  51.3781, value:  18.6501:  32%|###2      | 160/500 [00:07<00:13, 24.48it/s]    error:  13.4770, value:  17.2280:  32%|###2      | 160/500 [00:08<00:13, 24.48it/s]    error:  13.4770, value:  17.2280:  38%|###8      | 192/500 [00:09<00:12, 24.69it/s]    error:  29.2135, value:  19.4982:  38%|###8      | 192/500 [00:09<00:12, 24.69it/s]    error:  29.2135, value:  19.4982:  45%|####4     | 224/500 [00:10<00:12, 21.94it/s]    error:  20.9057, value:  19.5189:  45%|####4     | 224/500 [00:11<00:12, 21.94it/s]    error:  20.9057, value:  19.5189:  51%|#####1    | 256/500 [00:11<00:09, 24.91it/s]    error:  39.6790, value:  19.5613:  51%|#####1    | 256/500 [00:12<00:09, 24.91it/s]    error:  39.6790, value:  19.5613:  58%|#####7    | 288/500 [00:13<00:09, 23.32it/s]    error:  11.9210, value:  18.6904:  58%|#####7    | 288/500 [00:13<00:09, 23.32it/s]    error:  11.9210, value:  18.6904:  64%|######4   | 320/500 [00:14<00:07, 23.34it/s]    error:  27.1533, value:  17.5537:  64%|######4   | 320/500 [00:15<00:07, 23.34it/s]    error:  27.1533, value:  17.5537:  70%|#######   | 352/500 [00:15<00:05, 26.56it/s]    error:  37.3228, value:  20.6805:  70%|#######   | 352/500 [00:16<00:05, 26.56it/s]    error:  37.3228, value:  20.6805:  77%|#######6  | 384/500 [00:17<00:05, 21.23it/s]    error:  18.0980, value:  18.6028:  77%|#######6  | 384/500 [00:18<00:05, 21.23it/s]    error:  18.0980, value:  18.6028:  83%|########3 | 416/500 [00:18<00:03, 22.52it/s]    error:  31.8089, value:  19.1153:  83%|########3 | 416/500 [00:19<00:03, 22.52it/s]    error:  31.8089, value:  19.1153:  90%|########9 | 448/500 [00:20<00:02, 21.23it/s]    error:  27.5464, value:  18.5389:  90%|########9 | 448/500 [00:21<00:02, 21.23it/s]    error:  27.5464, value:  18.5389:  96%|#########6| 480/500 [00:21<00:00, 23.16it/s]    error:  24.5791, value:  18.7470:  96%|#########6| 480/500 [00:22<00:00, 23.16it/s]    error:  24.5791, value:  18.7470: : 512it [00:23, 22.56it/s]                           error:  11.1578, value:  19.3972: : 512it [00:23, 22.56it/s]
+            action: /tmp/tmp1l_3dk4m, 0.00762939453125 Mb of storage (size: torch.Size([500, 2])).
+            action_value: /tmp/tmp21ovrxxd, 0.003814697265625 Mb of storage (size: torch.Size([500, 2])).
+            chosen_action_value: /tmp/tmpejw51047, 0.0019073486328125 Mb of storage (size: torch.Size([500, 1])).
+            done: /tmp/tmpf2qpbq7r, 0.000476837158203125 Mb of storage (size: torch.Size([500, 1])).
+            index: /tmp/tmprj_m39j2, 0.0019073486328125 Mb of storage (size: torch.Size([500])).
+            mask: /tmp/tmph1v0i3a0, 0.000476837158203125 Mb of storage (size: torch.Size([500])).
+            pixels: /tmp/tmp20by6xhd, 31.25 Mb of storage (size: torch.Size([500, 4, 64, 64])).
+            reward: /tmp/tmpglqyt160, 0.0019073486328125 Mb of storage (size: torch.Size([500, 1])).
+            step_count: /tmp/tmp_666_9y9, 0.003814697265625 Mb of storage (size: torch.Size([500])).
+            traj_ids: /tmp/tmpv_l9anhc, 0.003814697265625 Mb of storage (size: torch.Size([500])).
+            ('next', 'pixels'): /tmp/tmp5q2lxd6b, 31.25 Mb of storage (size: torch.Size([500, 4, 64, 64])).
+     13%|#2        | 64/500 [00:06<00:38, 11.34it/s]     19%|#9        | 96/500 [00:10<00:43,  9.28it/s]    error:  34.3328, value:  19.9695:  19%|#9        | 96/500 [00:11<00:43,  9.28it/s]    error:  34.3328, value:  19.9695:  26%|##5       | 128/500 [00:11<00:27, 13.31it/s]    error:  12.1961, value:  19.5104:  26%|##5       | 128/500 [00:12<00:27, 13.31it/s]    error:  12.1961, value:  19.5104:  32%|###2      | 160/500 [00:13<00:23, 14.43it/s]    error:  31.8997, value:  19.2111:  32%|###2      | 160/500 [00:14<00:23, 14.43it/s]    error:  31.8997, value:  19.2111:  38%|###8      | 192/500 [00:14<00:16, 18.33it/s]    error:  10.7062, value:  19.5417:  38%|###8      | 192/500 [00:15<00:16, 18.33it/s]    error:  10.7062, value:  19.5417:  45%|####4     | 224/500 [00:20<00:28,  9.75it/s]    error:  28.0678, value:  20.9726:  45%|####4     | 224/500 [00:21<00:28,  9.75it/s]    error:  28.0678, value:  20.9726:  51%|#####1    | 256/500 [00:22<00:20, 11.96it/s]    error:  20.7803, value:  17.9396:  51%|#####1    | 256/500 [00:22<00:20, 11.96it/s]    error:  20.7803, value:  17.9396:  58%|#####7    | 288/500 [00:24<00:17, 12.24it/s]    error:  18.1335, value:  18.3466:  58%|#####7    | 288/500 [00:25<00:17, 12.24it/s]    error:  18.1335, value:  18.3466:  64%|######4   | 320/500 [00:27<00:14, 12.18it/s]    error:  23.5000, value:  19.8063:  64%|######4   | 320/500 [00:28<00:14, 12.18it/s]    error:  23.5000, value:  19.8063:  70%|#######   | 352/500 [00:29<00:11, 12.79it/s]    error:  7.3759, value:  19.7590:  70%|#######   | 352/500 [00:30<00:11, 12.79it/s]     error:  7.3759, value:  19.7590:  77%|#######6  | 384/500 [00:31<00:08, 14.03it/s]    error:  45.6204, value:  18.3932:  77%|#######6  | 384/500 [00:32<00:08, 14.03it/s]    error:  45.6204, value:  18.3932:  83%|########3 | 416/500 [00:35<00:07, 11.92it/s]    error:  28.8345, value:  18.4719:  83%|########3 | 416/500 [00:35<00:07, 11.92it/s]    error:  28.8345, value:  18.4719:  90%|########9 | 448/500 [00:36<00:03, 14.46it/s]    error:  18.5943, value:  19.6253:  90%|########9 | 448/500 [00:36<00:03, 14.46it/s]    error:  18.5943, value:  19.6253:  96%|#########6| 480/500 [00:40<00:01, 11.46it/s]    error:  1.9974, value:  20.0813:  96%|#########6| 480/500 [00:41<00:01, 11.46it/s]     error:  1.9974, value:  20.0813: : 512it [00:42, 12.90it/s]                           error:  40.1958, value:  18.6198: : 512it [00:42, 12.90it/s]
 
 
 
@@ -911,7 +911,7 @@ We reset the actor, the RB and the collector
 
  .. code-block:: none
 
-    error:  11.1578, value:  19.3972: : 512it [00:35, 22.56it/s]
+    error:  40.1958, value:  18.6198: : 512it [00:53, 12.90it/s]
 
 
 
@@ -1142,51 +1142,51 @@ There are very few differences with the training loop above:
  .. code-block:: none
 
 
-      0%|          | 0/500 [00:00<?, ?it/s]    error:  11.1578, value:  19.3972: : 512it [00:39, 13.02it/s]
+      0%|          | 0/500 [00:00<?, ?it/s]    error:  40.1958, value:  18.6198: : 512it [00:55,  9.16it/s]
 
-      6%|6         | 32/500 [00:02<00:31, 14.98it/s]Creating a MemmapStorage...
+      6%|6         | 32/500 [00:06<01:42,  4.58it/s]Creating a MemmapStorage...
     The storage is being created: 
-            action: /tmp/tmp3jlpvqnu, 0.0078125 Mb of storage (size: torch.Size([16, 32, 2])).
-            action_value: /tmp/tmpdwxsopkm, 0.00390625 Mb of storage (size: torch.Size([16, 32, 2])).
-            chosen_action_value: /tmp/tmpto9wx1qc, 0.001953125 Mb of storage (size: torch.Size([16, 32, 1])).
-            done: /tmp/tmpw6y3nxd0, 0.00048828125 Mb of storage (size: torch.Size([16, 32, 1])).
-            index: /tmp/tmps9rax53b, 6.103515625e-05 Mb of storage (size: torch.Size([16])).
-            mask: /tmp/tmphn7os_ue, 0.00048828125 Mb of storage (size: torch.Size([16, 32])).
-            pixels: /tmp/tmp5vov5ce5, 32.0 Mb of storage (size: torch.Size([16, 32, 4, 64, 64])).
-            reward: /tmp/tmp6w0lw1zq, 0.001953125 Mb of storage (size: torch.Size([16, 32, 1])).
-            step_count: /tmp/tmphnjrbfqy, 0.00390625 Mb of storage (size: torch.Size([16, 32])).
-            traj_ids: /tmp/tmpd_o9zb9z, 0.00390625 Mb of storage (size: torch.Size([16, 32])).
-            ('next', 'pixels'): /tmp/tmp96i5i4_0, 32.0 Mb of storage (size: torch.Size([16, 32, 4, 64, 64])).
+            action: /tmp/tmpw1gc7yqc, 0.0078125 Mb of storage (size: torch.Size([16, 32, 2])).
+            action_value: /tmp/tmper6ii3u8, 0.00390625 Mb of storage (size: torch.Size([16, 32, 2])).
+            chosen_action_value: /tmp/tmpzkbb62q_, 0.001953125 Mb of storage (size: torch.Size([16, 32, 1])).
+            done: /tmp/tmpr6svml7x, 0.00048828125 Mb of storage (size: torch.Size([16, 32, 1])).
+            index: /tmp/tmpag7g9t1e, 6.103515625e-05 Mb of storage (size: torch.Size([16])).
+            mask: /tmp/tmpxh3595rv, 0.00048828125 Mb of storage (size: torch.Size([16, 32])).
+            pixels: /tmp/tmp6ic0chsu, 32.0 Mb of storage (size: torch.Size([16, 32, 4, 64, 64])).
+            reward: /tmp/tmp0qg5iy46, 0.001953125 Mb of storage (size: torch.Size([16, 32, 1])).
+            step_count: /tmp/tmp8i559ahr, 0.00390625 Mb of storage (size: torch.Size([16, 32])).
+            traj_ids: /tmp/tmpcnaumo2o, 0.00390625 Mb of storage (size: torch.Size([16, 32])).
+            ('next', 'pixels'): /tmp/tmp104a_nk6, 32.0 Mb of storage (size: torch.Size([16, 32, 4, 64, 64])).
 
-     13%|#2        | 64/500 [00:03<00:24, 17.74it/s]
-     19%|#9        | 96/500 [00:05<00:24, 16.35it/s]
-    error:  0.7663, value:  2.4627:  19%|#9        | 96/500 [00:06<00:24, 16.35it/s]
-    error:  0.7663, value:  2.4627:  26%|##5       | 128/500 [00:07<00:20, 18.22it/s]
-    error:  7.8998, value:  6.8549:  26%|##5       | 128/500 [00:07<00:20, 18.22it/s]
-    error:  7.8998, value:  6.8549:  32%|###2      | 160/500 [00:08<00:17, 19.10it/s]
-    error:  3.2482, value:  5.2060:  32%|###2      | 160/500 [00:09<00:17, 19.10it/s]
-    error:  3.2482, value:  5.2060:  38%|###8      | 192/500 [00:10<00:16, 19.18it/s]
-    error:  4.4188, value:  6.1839:  38%|###8      | 192/500 [00:11<00:16, 19.18it/s]
-    error:  4.4188, value:  6.1839:  45%|####4     | 224/500 [00:11<00:13, 21.07it/s]
-    error:  3.1136, value:  4.7623:  45%|####4     | 224/500 [00:12<00:13, 21.07it/s]
-    error:  3.1136, value:  4.7623:  51%|#####1    | 256/500 [00:13<00:12, 19.67it/s]
-    error:  15.9588, value:  0.8870:  51%|#####1    | 256/500 [00:14<00:12, 19.67it/s]
-    error:  15.9588, value:  0.8870:  58%|#####7    | 288/500 [00:15<00:11, 18.88it/s]
-    error:  2.2960, value:  7.4173:  58%|#####7    | 288/500 [00:16<00:11, 18.88it/s] 
-    error:  2.2960, value:  7.4173:  64%|######4   | 320/500 [00:17<00:09, 19.13it/s]
-    error:  1.4188, value:  7.5501:  64%|######4   | 320/500 [00:17<00:09, 19.13it/s]
-    error:  1.4188, value:  7.5501:  70%|#######   | 352/500 [00:17<00:06, 22.12it/s]
-    error:  0.2940, value:  8.3463:  70%|#######   | 352/500 [00:18<00:06, 22.12it/s]
-    error:  0.2940, value:  8.3463:  77%|#######6  | 384/500 [00:20<00:06, 17.39it/s]
-    error:  1.1548, value:  5.0702:  77%|#######6  | 384/500 [00:21<00:06, 17.39it/s]
-    error:  1.1548, value:  5.0702:  83%|########3 | 416/500 [00:22<00:04, 18.22it/s]
-    error:  0.7887, value:  5.0299:  83%|########3 | 416/500 [00:23<00:04, 18.22it/s]
-    error:  0.7887, value:  5.0299:  90%|########9 | 448/500 [00:23<00:02, 19.33it/s]
-    error:  1.2421, value:  5.3525:  90%|########9 | 448/500 [00:24<00:02, 19.33it/s]
-    error:  1.2421, value:  5.3525:  96%|#########6| 480/500 [00:25<00:01, 19.51it/s]
-    error:  1.2751, value:  10.3470:  96%|#########6| 480/500 [00:25<00:01, 19.51it/s]
-    error:  1.2751, value:  10.3470: : 512it [00:26, 21.28it/s]                       
-    error:  1.4173, value:  8.3256: : 512it [00:27, 21.28it/s] 
+     13%|#2        | 64/500 [00:07<00:42, 10.34it/s]
+     19%|#9        | 96/500 [00:12<00:49,  8.24it/s]
+    error:  9.4428, value:  7.5369:  19%|#9        | 96/500 [00:12<00:49,  8.24it/s]
+    error:  9.4428, value:  7.5369:  26%|##5       | 128/500 [00:13<00:32, 11.33it/s]
+    error:  11.7821, value:  8.8290:  26%|##5       | 128/500 [00:14<00:32, 11.33it/s]
+    error:  11.7821, value:  8.8290:  32%|###2      | 160/500 [00:17<00:33, 10.04it/s]
+    error:  10.6582, value:  9.3924:  32%|###2      | 160/500 [00:17<00:33, 10.04it/s]
+    error:  10.6582, value:  9.3924:  38%|###8      | 192/500 [00:19<00:27, 11.19it/s]
+    error:  74.7146, value:  10.7921:  38%|###8      | 192/500 [00:20<00:27, 11.19it/s]
+    error:  74.7146, value:  10.7921:  45%|####4     | 224/500 [00:21<00:22, 12.11it/s]
+    error:  10.5996, value:  12.9823:  45%|####4     | 224/500 [00:22<00:22, 12.11it/s]
+    error:  10.5996, value:  12.9823:  51%|#####1    | 256/500 [00:24<00:21, 11.61it/s]
+    error:  6.9719, value:  11.9211:  51%|#####1    | 256/500 [00:25<00:21, 11.61it/s] 
+    error:  6.9719, value:  11.9211:  58%|#####7    | 288/500 [00:25<00:13, 15.25it/s]
+    error:  29.2837, value:  17.0055:  58%|#####7    | 288/500 [00:25<00:13, 15.25it/s]
+    error:  29.2837, value:  17.0055:  64%|######4   | 320/500 [00:27<00:12, 14.32it/s]
+    error:  6.6955, value:  14.3260:  64%|######4   | 320/500 [00:28<00:12, 14.32it/s] 
+    error:  6.6955, value:  14.3260:  70%|#######   | 352/500 [00:30<00:11, 13.29it/s]
+    error:  3.3747, value:  9.3487:  70%|#######   | 352/500 [00:31<00:11, 13.29it/s] 
+    error:  3.3747, value:  9.3487:  77%|#######6  | 384/500 [00:32<00:07, 15.24it/s]
+    error:  12.0512, value:  11.0987:  77%|#######6  | 384/500 [00:32<00:07, 15.24it/s]
+    error:  12.0512, value:  11.0987:  83%|########3 | 416/500 [00:34<00:05, 14.82it/s]
+    error:  5.1704, value:  11.2637:  83%|########3 | 416/500 [00:35<00:05, 14.82it/s] 
+    error:  5.1704, value:  11.2637:  90%|########9 | 448/500 [00:35<00:03, 16.15it/s]
+    error:  1.5493, value:  7.3087:  90%|########9 | 448/500 [00:36<00:03, 16.15it/s] 
+    error:  1.5493, value:  7.3087:  96%|#########6| 480/500 [00:37<00:01, 17.61it/s]
+    error:  14.8016, value:  1.0519:  96%|#########6| 480/500 [00:38<00:01, 17.61it/s]
+    error:  14.8016, value:  1.0519: : 512it [00:39, 17.71it/s]                       
+    error:  8.0462, value:  0.9057: : 512it [00:39, 17.71it/s] 
 
 
 
@@ -1382,20 +1382,20 @@ initial, random rollout.
 
     TensorDict(
         fields={
-            action: Tensor(shape=torch.Size([8, 2]), device=cpu, dtype=torch.int64, is_shared=False),
-            action_value: Tensor(shape=torch.Size([8, 2]), device=cpu, dtype=torch.float32, is_shared=False),
-            chosen_action_value: Tensor(shape=torch.Size([8, 1]), device=cpu, dtype=torch.float32, is_shared=False),
-            done: Tensor(shape=torch.Size([8, 1]), device=cpu, dtype=torch.bool, is_shared=False),
+            action: Tensor(shape=torch.Size([10, 2]), device=cpu, dtype=torch.int64, is_shared=False),
+            action_value: Tensor(shape=torch.Size([10, 2]), device=cpu, dtype=torch.float32, is_shared=False),
+            chosen_action_value: Tensor(shape=torch.Size([10, 1]), device=cpu, dtype=torch.float32, is_shared=False),
+            done: Tensor(shape=torch.Size([10, 1]), device=cpu, dtype=torch.bool, is_shared=False),
             next: TensorDict(
                 fields={
-                    pixels: Tensor(shape=torch.Size([8, 4, 64, 64]), device=cpu, dtype=torch.float32, is_shared=False)},
-                batch_size=torch.Size([8]),
+                    pixels: Tensor(shape=torch.Size([10, 4, 64, 64]), device=cpu, dtype=torch.float32, is_shared=False)},
+                batch_size=torch.Size([10]),
                 device=cpu,
                 is_shared=False),
-            pixels: Tensor(shape=torch.Size([8, 4, 64, 64]), device=cpu, dtype=torch.float32, is_shared=False),
-            pixels_save: Tensor(shape=torch.Size([8, 400, 600, 3]), device=cpu, dtype=torch.uint8, is_shared=False),
-            reward: Tensor(shape=torch.Size([8, 1]), device=cpu, dtype=torch.float32, is_shared=False)},
-        batch_size=torch.Size([8]),
+            pixels: Tensor(shape=torch.Size([10, 4, 64, 64]), device=cpu, dtype=torch.float32, is_shared=False),
+            pixels_save: Tensor(shape=torch.Size([10, 400, 600, 3]), device=cpu, dtype=torch.uint8, is_shared=False),
+            reward: Tensor(shape=torch.Size([10, 1]), device=cpu, dtype=torch.float32, is_shared=False)},
+        batch_size=torch.Size([10]),
         device=cpu,
         is_shared=False)
 
@@ -1448,7 +1448,7 @@ algorithm. Other possible improvements could include:
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 1 minutes  19.287 seconds)
+   **Total running time of the script:** ( 1 minutes  47.181 seconds)
 
 
 .. _sphx_glr_download_tutorials_coding_dqn.py:
